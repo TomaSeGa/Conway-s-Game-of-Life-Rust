@@ -5,7 +5,7 @@ pub fn windows_param() -> Conf {
         window_title: "Game of Life".to_owned(),
         window_width: 1000, 
         window_height: 1000, 
-        window_resizable: true,
+        window_resizable: false,
         ..Default::default()
     }
 }
